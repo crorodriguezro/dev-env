@@ -9,6 +9,9 @@
 
 ## Varios
 * uso DD https://blog.kintoandar.com/2010/02/how-to-disk-dump-dd.html
+    ```
+    sudo dd if=backup_sda.img of=/dev/sdb bs=64k status=progress conv=fdatasync
+    ```
 * convertir imagne
     - https://superuser.com/questions/554862/how-to-convert-img-to-usable-virtualbox-format
     - 
