@@ -8,7 +8,7 @@
 * Instalar virtualbox https://www.virtualbox.org/wiki/Linux_Downloads
 * Instalar ifconfig `sudo apt install net-tool`
 * Instalar slack https://flathub.org/apps/details/com.slack.Slack
-* instalar intellij con snap https://www.jetbrains.com/help/idea/install-and-set-up-product.html
+* instalar intellij con snap https://www.jetbrains.com/help/idea/install-and-set-up-product.html#install-on-linux-with-snaps
 
 ## Varios
 * uso DD https://blog.kintoandar.com/2010/02/how-to-disk-dump-dd.html
