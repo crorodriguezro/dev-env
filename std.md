@@ -1,0 +1,13 @@
+- General questions about handling different charsets
+- General questions about database transactions
+- How to detect and start debugging performance issues in production
+- Linkedlist vs Arraylist
+- Making Singleton thread safe
+- Questions related to database transactions
+- https://www.glassdoor.com/Interview/Tips-for-Behavioural-interview-QTN_2670942.htm
+- https://www.glassdoor.com/Interview/What-are-you-proud-of-regarding-your-achievements-in-the-last-couple-of-years-job-wise-and-why-QTN_2669824.htm
+- https://www.glassdoor.com/Interview/General-question-about-my-skills-QTN_2760869.htm
+- https://www.glassdoor.com/Interview/Algorithm-Complexity-QTN_2789902.htm
+- https://www.glassdoor.com/Interview/Relational-Databases-QTN_2789903.htm
+- https://www.glassdoor.com/Interview/Microservices-QTN_2789904.htm
+- if you see that some one from your team writes a dirty code - what’d you do?
