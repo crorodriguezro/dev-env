@@ -1,19 +1,20 @@
 Varios
 Patterns
-	-SINGLETON
-	-THE STRATEGY (NormalStrategy, HappyHourStrattegy) 
-	-THE FACTORY PATTERN
-	-FLUENT BUILDER
+
+-SINGLETON
+-THE STRATEGY (NormalStrategy, HappyHourStrattegy) 
+-THE FACTORY PATTERN
+-FLUENT BUILDER
 
 Bases de datos
-	-Postgres
-	-Mysql
-	-Oracle
-	-Dynamo
-	-mongodb
-	-Firebase
-	-Lokidb
-	-couchbase
+-Postgres
+-Mysql
+-Oracle
+-Dynamo
+-mongodb
+-Firebase
+-Lokidb
+-couchbase
 
 
 Servidores
@@ -21,27 +22,29 @@ Servidores
 	-Openshift
 	-mockito
 
-Testing
-	-Unit Test
-		-mockito
-	-Integration Test (User histories into test suite)
-	-Performance TEst
-		-Guava stopwatch
-		-Revisar el uso de la cpu cuando x metodo esta corriendo
-		-New Relic / data dog
-		-java mission control
-		-j meter / Bees with machine guns
-		- behavior Test A test is a behavior test  if it checks if certain methods were called with the correct input parameters
+## Testing
+- Unit Test
+    - mockito
+- Integration Test (User histories into test suite)
+- Performance TEst
+    - Guava stopwatch
+    - Revisar el uso de la cpu cuando x metodo esta corriendo
+    - New Relic / data dog
+    - java mission control
+    - j meter / Bees with machine guns
+    - behavior Test A test is a behavior test  if it checks if certain methods were called with the correct input parameters
 
 	selenium
 	sonar
 
-Code review
-	- pull request
+## Code review
+- pull request
 
-immutabilidaad
+## immutabilidaad
 
-SOLID:   five design principles:    software more understandable, flexible and maintainable
+## General
+
+### SOLID:   five design principles:    software more understandable, flexible and maintainable
 	-Single responsibility
 	-Open-closed  "software entities … should be open for extension, but closed for modification."
 		A module will be said to be closed if [it] is available for use by other modules. This assumes that the module has been given a well-defined, stable description (the interface in the sense of information hiding).[3].
@@ -51,17 +54,20 @@ SOLID:   five design principles:    software more understandable, flexible and m
 	-Interface segregation
 		The interface-segregation principle (ISP) states that no client should be forced to depend on methods it does not use.[1] ISP splits interfaces that are very large into smaller and more specific ones so that clients will only have to know about the methods that are of interest to the
 	-Dependency inversion: ISP is intended to keep a system decoupled and thus easier to refactor, change, and redeploy. 
+	    inversion de dependencias, inversion de control
 		A. High-level modules should not depend on low-level modules. Both should depend on abstractions.
 		B. Abstractions should not depend on details. Details should depend on abstractions.
 
-GRASP: General responsibility assignment software patterns
-	consist of guidelines for assigning responsibility to classes and objects
-	patterns: controller, creator, indirection, information expert, high cohesion, low coupling, polymorphism, protected variations, and pure fabrication.
+### GRASP: General responsibility assignment software patterns
+ patrones generales de software para asignación de responsabilidades,
 
-	Polymorphism
-		According to polymorphism principle, responsibility of defining the variation of behaviors based on type is assigned to the type for which this variation happens. This is achieved using polymorphic operations. The user of the type should use polymorphic operations instead of explicit branching based on type.
+consist of guidelines for assigning responsibility to classes and objects
+patterns: controller, creator, indirection, information expert, high cohesion, low coupling, polymorphism, protected variations, and pure fabrication.
 
-ACID   Cuando se dice que es ACID compliant se indica permite realizar transacciones.
+Polymorphism
+	According to polymorphism principle, responsibility of defining the variation of behaviors based on type is assigned to the type for which this variation happens. This is achieved using polymorphic operations. The user of the type should use polymorphic operations instead of explicit branching based on type.
+
+### ACID   Cuando se dice que es ACID compliant se indica permite realizar transacciones.
 
 	Atomicidad: Si cuando una operación consiste en una serie de pasos, bien todos ellos se ejecutan o bien ninguno, es decir, las transacciones son completas.
 
@@ -71,7 +77,7 @@ ACID   Cuando se dice que es ACID compliant se indica permite realizar transacci
 
 	Durabilidad: (Persistencia). Esta propiedad asegura que una vez realizada la operación, esta persistirá y no se podrá deshacer aunque falle el sistema y que de esta forma los datos sobrevivan de alguna manera.
 
-BASE (Basically Available, Soft State, Eventually Consistent
+### BASE (Basically Available, Soft State, Eventually Consistent
 
 
 Transactions
@@ -94,8 +100,9 @@ Transactions
 
 
 
-REST (Representational State Transfer) es una arquitectura que se ejecuta sobre HTTP.
-	It should be stateless
+### REST (Representational State Transfer) es una arquitectura que se ejecuta sobre HTTP.
+
+It should be stateless
 
 It should access all the resources from the server using only URI
 
@@ -126,5 +133,8 @@ having group by
 _________________________________________________________________
 FRONT
 pruebas unitarias:
-- jest
+- jest, test running and asserting
+- mocha. test runner
+- chai, asserting
+- puppeter, headless browser 
 
