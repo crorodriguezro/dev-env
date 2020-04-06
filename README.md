@@ -1,3 +1,17 @@
+### Manjaro!
+```
+sudo pacman -S docker
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker $USER
+
+# install intellij
+yay -Sy --noconfirm intellij-idea-ultimate-edition
+
+yay -Sy --noconfirm sublime-text-3-imfix
+```
+
+
 ### Ubuntu ftw!
 
 https://askubuntu.com/questions/884534/how-to-run-ubuntu-desktop-on-qemu
