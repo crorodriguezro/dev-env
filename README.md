@@ -1,4 +1,6 @@
 ### Ubuntu ftw!
+
+https://askubuntu.com/questions/884534/how-to-run-ubuntu-desktop-on-qemu
 ## Instalación
 * Arreglar el alt + tab https://askubuntu.com/a/996410/882392
 * Instalar flatpak https://www.techrepublic.com/article/how-to-install-and-use-flatpak-on-ubuntu/
