@@ -9,6 +9,13 @@ sudo usermod -aG docker $USER
 yay -Sy --noconfirm intellij-idea-ultimate-edition
 
 yay -Sy --noconfirm sublime-text-3-imfix
+
+
+
+
+# install node
+# https://github.com/nvm-sh/nvm
+# nvm install node
 ```
 
 
