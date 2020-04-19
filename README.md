@@ -5,6 +5,9 @@ sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker $USER
 
+# jdk gradle
+curl -s "https://get.sdkman.io" | bash
+
 # install intellij
 yay -Sy --noconfirm intellij-idea-ultimate-edition
 
